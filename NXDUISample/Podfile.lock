@@ -1,0 +1,16 @@
+PODS:
+  - HeckelDiff (0.2.4)
+
+DEPENDENCIES:
+  - HeckelDiff
+
+SPEC REPOS:
+  trunk:
+    - HeckelDiff
+
+SPEC CHECKSUMS:
+  HeckelDiff: d4a31fd2691578aadb55844ee7f0130b49fc00fc
+
+PODFILE CHECKSUM: 191a735f4b669b692c35bada8815dcb10538ca6c
+
+COCOAPODS: 1.8.0.beta.2
