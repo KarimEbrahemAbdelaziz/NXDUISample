@@ -24,7 +24,6 @@ struct Section: ConvertibleToASection {
         header: Body? = nil,
         footer: Body? = nil,
         action: ((Int) -> Void)? = nil,
-        style: SectionStyle = .none,
         rows: () -> [Row]) {
         let allRows = rows().enumerated().map { index, row -> _Row in
             return _Row(row: row, action: {
@@ -59,5 +58,33 @@ struct Section: ConvertibleToASection {
     /// Section can be converted to a Section
     var asSection: Section {
         return self
+    }
+    
+}
+
+
+extension Section {
+    public init<ViewModel>(
+        header: Body? = nil,
+        footer: Body? = nil,
+        viewModels: [ViewModel],
+        body: (ViewModel) -> Body) {
+        let content = viewModels.map { viewModel -> _Row in
+            let id: ID
+            if let identifiable = viewModel as? Identifiable {
+                id = identifiable.id
+                print("ID: ", identifiable.id)
+            } else {
+                print("Unique! \(viewModel)")
+                id = Unique()
+            }
+            return _Row(
+                body: body(viewModel),
+                id: id,
+                action: {}
+            )
+        }
+
+        self.init(header: header, footer: footer, content: content)
     }
 }

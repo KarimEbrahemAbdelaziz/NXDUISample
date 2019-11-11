@@ -23,14 +23,14 @@
 		C04E143B23757D4100B5C439 /* ListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142823757D4100B5C439 /* ListViewTableViewCell.swift */; };
 		C04E143E23757D4100B5C439 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142B23757D4100B5C439 /* List.swift */; };
 		C04E143F23757D4100B5C439 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142C23757D4100B5C439 /* Section.swift */; };
-		C04E144023757D4100B5C439 /* SectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142D23757D4100B5C439 /* SectionStyle.swift */; };
 		C04E144123757D4100B5C439 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142E23757D4100B5C439 /* Identifiable.swift */; };
 		C04E144223757D4100B5C439 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E142F23757D4100B5C439 /* Row.swift */; };
 		C04E14442375B11500B5C439 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E14432375B11500B5C439 /* UIView+Constraints.swift */; };
 		C04E14472375B4E600B5C439 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E14462375B4E600B5C439 /* VStack.swift */; };
-		C04E144A2375C2FA00B5C439 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E14492375C2FA00B5C439 /* TitleLabel.swift */; };
+		C04E144A2375C2FA00B5C439 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E14492375C2FA00B5C439 /* Title.swift */; };
 		C04E144C2375C4B800B5C439 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E144B2375C4B800B5C439 /* DemoView.swift */; };
 		C04E144E2375C59B00B5C439 /* DemoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E144D2375C59B00B5C439 /* DemoPresenter.swift */; };
+		C04E145023796A3500B5C439 /* Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04E144F23796A3500B5C439 /* Toggle.swift */; };
 		EF2CD08974EB093EFAF42002 /* Pods_NXDUISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342D23398F10E1820821DA50 /* Pods_NXDUISample.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,14 +55,14 @@
 		C04E142823757D4100B5C439 /* ListViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCell.swift; sourceTree = "<group>"; };
 		C04E142B23757D4100B5C439 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		C04E142C23757D4100B5C439 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		C04E142D23757D4100B5C439 /* SectionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionStyle.swift; sourceTree = "<group>"; };
 		C04E142E23757D4100B5C439 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		C04E142F23757D4100B5C439 /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		C04E14432375B11500B5C439 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		C04E14462375B4E600B5C439 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
-		C04E14492375C2FA00B5C439 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		C04E14492375C2FA00B5C439 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		C04E144B2375C4B800B5C439 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		C04E144D2375C59B00B5C439 /* DemoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPresenter.swift; sourceTree = "<group>"; };
+		C04E144F23796A3500B5C439 /* Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle.swift; sourceTree = "<group>"; };
 		DFB7375B1170E35F609B4A65 /* Pods-NXDUISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXDUISample.release.xcconfig"; path = "Target Support Files/Pods-NXDUISample/Pods-NXDUISample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,7 +159,6 @@
 				C04E142423757D4100B5C439 /* Internal */,
 				C04E142B23757D4100B5C439 /* List.swift */,
 				C04E142C23757D4100B5C439 /* Section.swift */,
-				C04E142D23757D4100B5C439 /* SectionStyle.swift */,
 				C04E142E23757D4100B5C439 /* Identifiable.swift */,
 				C04E142F23757D4100B5C439 /* Row.swift */,
 			);
@@ -188,7 +187,8 @@
 		C04E14482375B5CA00B5C439 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				C04E14492375C2FA00B5C439 /* TitleLabel.swift */,
+				C04E14492375C2FA00B5C439 /* Title.swift */,
+				C04E144F23796A3500B5C439 /* Toggle.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -311,12 +311,12 @@
 				C04E143723757D4100B5C439 /* ConvertibleToASection.swift in Sources */,
 				C04E14442375B11500B5C439 /* UIView+Constraints.swift in Sources */,
 				C04E14472375B4E600B5C439 /* VStack.swift in Sources */,
-				C04E144023757D4100B5C439 /* SectionStyle.swift in Sources */,
 				C04E143E23757D4100B5C439 /* List.swift in Sources */,
 				C04E143223757D4100B5C439 /* ViewModelWrapper.swift in Sources */,
 				C04E143A23757D4100B5C439 /* Unique.swift in Sources */,
 				C04E143123757D4100B5C439 /* NXDUIHostingViewController.swift in Sources */,
 				C04E144C2375C4B800B5C439 /* DemoView.swift in Sources */,
+				C04E145023796A3500B5C439 /* Toggle.swift in Sources */,
 				C04E143F23757D4100B5C439 /* Section.swift in Sources */,
 				C04E144E2375C59B00B5C439 /* DemoPresenter.swift in Sources */,
 				C04E13FA23757BB900B5C439 /* AppDelegate.swift in Sources */,
@@ -326,7 +326,7 @@
 				C04E143023757D4100B5C439 /* NXDUI.swift in Sources */,
 				C04E143423757D4100B5C439 /* NXDUIHostView.swift in Sources */,
 				C04E143B23757D4100B5C439 /* ListViewTableViewCell.swift in Sources */,
-				C04E144A2375C2FA00B5C439 /* TitleLabel.swift in Sources */,
+				C04E144A2375C2FA00B5C439 /* Title.swift in Sources */,
 				C04E144223757D4100B5C439 /* Row.swift in Sources */,
 				C04E143623757D4100B5C439 /* NXDUI_DefaultAnimation.swift in Sources */,
 			);
