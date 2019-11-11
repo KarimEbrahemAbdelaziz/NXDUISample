@@ -1,8 +1,5 @@
 //
-//  NXDUIContentReplacingView.swift
-//  N26NXD
-//
-//  Created by Ivan Damjanovic on 18.07.19.
+//  Copyright © 2019 N26. All rights reserved.
 //
 
 import UIKit

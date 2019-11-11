@@ -1,8 +1,5 @@
 //
-//  NXDUI_DefaultAnimation.swift
-//  N26NXD
-//
-//  Created by Ivan Damjanovic on 23.07.19.
+//  Copyright © 2019 N26. All rights reserved.
 //
 
 import UIKit

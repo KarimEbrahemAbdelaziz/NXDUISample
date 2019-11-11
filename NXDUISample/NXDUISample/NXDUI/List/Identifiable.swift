@@ -1,8 +1,5 @@
 //
-//  Identifiable.swift
-//  N26NXD
-//
-//  Created by Ivan Damjanovic on 19.07.19.
+//  Copyright © 2019 N26. All rights reserved.
 //
 
 import Foundation
