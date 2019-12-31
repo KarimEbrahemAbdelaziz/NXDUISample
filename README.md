@@ -5,7 +5,7 @@ To enable a smooth transition to SwiftUI when available, NXDUI is making a best 
 
 ⚠️The code in this repository is for demonstration purposes only. It will not be maintained nor shipped as a library. If you like the approach, consider creating your own version using NXDUI as inspiration.⚠️
 
-To see NXDUI in action, open `NXDUISample.xcworspace` and run the app.
+To see NXDUI in action, open `NXDUISample.xcworkspace` and run the app.
 
 ## Why?
 
