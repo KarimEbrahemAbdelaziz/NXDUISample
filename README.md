@@ -3,6 +3,8 @@ NXDUI is a declarative UI wrapper for the built on top of UIKit. It allows build
 
 To enable a smooth transition to SwiftUI when available, NXDUI is making a best effort to be source compatible with SwiftUI. However, this is not a hard requirement for any potential features in NXDUI.
 
+⚠️The code in this repository is for demonstration purposes only. It will not be maintained nor shipped as a library. If you like the approach, consider creating your own version using NXDUI as inspiration.⚠️
+
 ## Why?
 
 The iOS app is made up of a bunch of different components. Regardles of the architecture used to build a screen, there is one component that persists: **View**
