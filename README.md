@@ -1,5 +1,5 @@
 # NXDUI
-NXDUI is a declarative UI wrapper for the built on top of UIKit. It allows building UI using a style that is as similar to SwiftUI as possible, running on iOS versions lower than 13.
+NXDUI is a declarative UI wrapper built on top of UIKit. It allows building UI using a style that is as similar to SwiftUI as possible, running on iOS versions lower than 13.
 
 To enable a smooth transition to SwiftUI when available, NXDUI is making a best effort to be source compatible with SwiftUI. However, this is not a hard requirement for any potential features in NXDUI.
 
@@ -30,7 +30,7 @@ UIKit interfaces tend to optimize for performance by using fine grained *DataSou
 
 ![](Images/swiftui_view.png)
 
-SwiftUI `View`s expose a single entry point - a `ViewModel` representing the entrie screen. Updating what's on the screen is as simple as giving a new `ViewModel` to the `View`. All of the diffing & animation logic is handled by SwiftUI.
+SwiftUI `View`s expose a single entry point - a `ViewModel` representing the entire screen. Updating what's on the screen is as simple as giving a new `ViewModel` to the `View`. All of the diffing & animation logic is handled by SwiftUI.
 
 -------------
 
